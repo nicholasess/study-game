@@ -1,0 +1,38 @@
+body {
+    background-color: #606060;
+}
+
+#canvasBg,#canvasHUD{
+    display: block;
+    margin: 5px auto;
+}
+
+#canvasEnemy,#canvasExplosion {
+    display: block;
+    margin: -505px auto;
+}
+
+#canvasJet{
+    display: block;
+    margin: 5px auto;
+}
+
+canvas#canvasTouchHUD,#canvasControlsHUD {
+    border: 1px solid black;
+    display: inline-block;
+    float : right;
+   margin-top: -305px;
+}
+
+#canvasControlsHUD {
+    float: left;
+}
+
+#area {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+
+
